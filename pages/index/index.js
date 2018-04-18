@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-    motto: '小程序学习',
+    motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
@@ -42,6 +42,11 @@ Page({
         }
       })
     }
+  },
+  goToMypage:function(){
+    wx.redirectTo({
+      url: '../mypage/mypage'
+    })
   },
   getUserInfo: function(e) {
     console.log(e)

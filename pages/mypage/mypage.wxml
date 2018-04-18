@@ -1,0 +1,5 @@
+<view class="container">
+  <text>Hello wechat app</text>
+  <button tyoe="default" bindtap="anyFunction"> 测试</button>
+  <text>{{mytext2.num}}</text>
+</view>

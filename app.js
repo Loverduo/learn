@@ -35,5 +35,15 @@ App({
   },
   globalData: {
     userInfo: null
+  },
+  onShow:function(){
+    console.log('从后台进入前台');
+  },
+  onHide:function(){
+    console.log('从前台进入后台');
+    this.test();
+  },
+  test:function(){
+    console.log('testFunction()');
   }
 })

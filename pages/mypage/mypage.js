@@ -1,0 +1,17 @@
+Page({
+  data:{
+    mytext:100,
+    mytext2:{
+      num:90
+    }
+  },
+  onLoad:function(opt){
+    console.log('执行onLoad');
+  },
+  anyFunction:function(){
+    console.log('执行anyFunciton');
+    this.setData({
+      'mytext2.num':200
+    });
+  }
+})
