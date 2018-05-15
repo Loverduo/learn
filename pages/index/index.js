@@ -45,7 +45,7 @@ Page({
   },
   goToMypage:function(){
     wx.redirectTo({
-      url: '../mypage/mypage'
+      url: '../component/scrollview/scrollview'
     })
   },
   getUserInfo: function(e) {
